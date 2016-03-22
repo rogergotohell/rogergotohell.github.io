@@ -1,0 +1,70 @@
+/* ==========================================================================
+   Roger GoToHell custom styles
+   ========================================================================== */
+@font-face{
+	font-family: "OldeEnglish";
+	src: url('/fonts/OldeEnglish.woff') format("woff");
+}
+
+html { 
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+	background-color: inherit;
+}
+
+p {
+	font-family: "OldeEnglish";
+	src: url('fonts/OldeEnglish.woff') format("woff");
+	font-size: 55px;
+	color: #000;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+	color: #000;
+}
+
+.header {
+	padding-bottom: 50px;
+	padding-top:50px;
+}
+
+.nav {
+	padding: 0px 0;
+	background-color:rgba(255,255,255,.5);
+}
+
+.nav p {
+	color: #000;
+}
+
+.footer {
+	padding-top: 100px;
+	padding-bottom: 50px; #
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+ 	#logo {
+	margin-top: 15%;
+	}       
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+ 	#logo {
+	margin-top: 5%;
+	}  
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+ 	#logo {
+	margin-top: 0%;
+	}  
+}
