@@ -37,8 +37,9 @@ a:visited {
 }
 
 .navbar-header {
-	padding: 50px 50;
+	padding: 0px 0;
 	background-color:rgba(52,52,52,.5);
+	min-height=100px;
 }
 
 .nav p {
