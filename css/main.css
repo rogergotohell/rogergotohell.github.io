@@ -37,12 +37,13 @@ a:visited {
 }
 
 .navbar {
-	padding: 0px 0;
+	padding: 0px;
 	background-color:rgba(52,52,52,.5);
 }
 
 .navbar-brand {
-	padding: 0px 0;
+	padding-bottom: 0px 0;
+	padding-top:0px;
 }
 
 .nav p {
