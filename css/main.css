@@ -39,6 +39,11 @@ a:visited {
 .navbar {
 	padding: 0px;
 	background-color:rgba(52,52,52,.5);
+	font-family: "OldeEnglish";
+	src: url('fonts/OldeEnglish.woff') format("woff");
+	font-size: 55px;
+	color: #000;
+	
 }
 
 .navbar-brand {
