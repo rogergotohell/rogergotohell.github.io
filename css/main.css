@@ -62,6 +62,13 @@ a:visited {
 	color: #000;
 }
 
+.pagination{
+	background-color:rgba(52,52,52,.75);
+	font-family: "OldeEnglish";
+	src: url('fonts/OldeEnglish.woff') format("woff");
+	font-size: 30px;
+}
+
 .footer {
 	padding-top: 100px;
 	padding-bottom: 50px; #
