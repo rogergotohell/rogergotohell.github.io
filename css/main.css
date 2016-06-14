@@ -1,0 +1,104 @@
+/* ==========================================================================
+   Roger GoToHell custom styles
+   ========================================================================== */
+@font-face{
+	font-family: "OldeEnglish"; !important
+	src: url('/fonts/OldeEnglish.woff') format("woff");
+}
+
+html {  
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+	background-color: inherit;
+	font-family: "OldeEnglish";
+	src: url('fonts/OldeEnglish.woff') format("woff");
+}
+
+p {
+	font-family: "OldeEnglish";
+	src: url('fonts/OldeEnglish.woff') format("woff");
+	font-size: 50px;
+	color: #000;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+	color: #000;
+}
+
+.header {
+	padding-bottom: 0px;
+	padding-top:0px;
+}
+
+.navbar {
+	padding-bottom: 0px;
+	padding-top:0px;
+	background:rgba(52,52,52,1); !important
+	font-family: OldeEnglish;
+	src: url(fonts/OldeEnglish.woff) format("woff");
+	font-size: 50px;
+	color: #000;
+	margin-bottom: 0px; !important
+	
+}
+
+.navbar header {
+	padding-bottom: 0px;
+	padding-top:0px;
+	font-family: "OldeEnglish";
+	src: url('fonts/OldeEnglish.woff') format("woff");
+	font-size: 50px;
+}
+
+.navbar-brand {
+	float:left;
+	height:50px;
+	padding:0px 15px; !important
+	font-size:50px;
+	line-height:50px
+}
+
+.nav p {
+	color: #000;
+}
+
+.pagination{
+	background-color:rgba(52,52,52,.75);
+	font-family: "OldeEnglish";
+	src: url('fonts/OldeEnglish.woff') format("woff");
+	font-size: 30px;
+	color: #000;
+}
+
+.footer {
+	padding-top: 100px;
+	padding-bottom: 50px; 
+}
+
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+ 	#logo {
+	margin-top: 15%;
+	}       
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+ 	#logo {
+	margin-top: 5%;
+	}  
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+ 	#logo {
+	margin-top: 0%;
+	}  
+}
