@@ -2,7 +2,7 @@
    Roger GoToHell custom styles
    ========================================================================== */
 @font-face{
-	font-family: "OldeEnglish";
+	font-family: "OldeEnglish"; !important
 	src: url('/fonts/OldeEnglish.woff') format("woff");
 }
 
