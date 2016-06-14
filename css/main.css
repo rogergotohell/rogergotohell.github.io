@@ -17,7 +17,7 @@ body {
 	background-color: inherit;
 }
 
-p {
+a {
 	font-family: "OldeEnglish";
 	src: url('fonts/OldeEnglish.woff') format("woff");
 	font-size: 50px;
