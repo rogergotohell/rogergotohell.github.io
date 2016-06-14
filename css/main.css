@@ -2,7 +2,7 @@
    Roger GoToHell custom styles
    ========================================================================== */
 @font-face{
-	font-family: "OldeEnglish"; !important
+	font-family: "OldeEnglish";
 	src: url('/fonts/OldeEnglish.woff') format("woff");
 }
 
@@ -15,8 +15,6 @@ html {
 }
 body {
 	background-color: inherit;
-	font-family: "OldeEnglish";
-	src: url('fonts/OldeEnglish.woff') format("woff");
 }
 
 p {
@@ -41,9 +39,9 @@ a:visited {
 .navbar {
 	padding-bottom: 0px;
 	padding-top:0px;
-	background:rgba(52,52,52,1); !important
-	font-family: OldeEnglish;
-	src: url(fonts/OldeEnglish.woff) format("woff");
+	background-color:rgba(52,52,52,1); !important
+	font-family: "OldeEnglish";
+	src: url('fonts/OldeEnglish.woff') format("woff");
 	font-size: 50px;
 	color: #000;
 	margin-bottom: 0px; !important
@@ -53,8 +51,6 @@ a:visited {
 .navbar header {
 	padding-bottom: 0px;
 	padding-top:0px;
-	font-family: "OldeEnglish";
-	src: url('fonts/OldeEnglish.woff') format("woff");
 	font-size: 50px;
 }
 
@@ -82,7 +78,6 @@ a:visited {
 	padding-top: 100px;
 	padding-bottom: 50px; 
 }
-
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
