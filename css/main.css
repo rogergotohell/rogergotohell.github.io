@@ -79,6 +79,11 @@ a:visited {
 	padding-bottom: 50px; 
 }
 
+.align-middle {
+  margin-top: 25%;
+  margin-bottom: 25%;
+}
+
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
  	#logo {
